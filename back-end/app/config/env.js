@@ -1,7 +1,7 @@
 const env = {
-  database: 'testdb',
+  database: 'ferretidb',
   username: 'root',
-  password: '12345',
+  password: 'vertical601',
   host: 'localhost',
   dialect: 'mysql',
   pool: {
