@@ -58,7 +58,8 @@ export default new Router({
       path: '/blog-posts',
       name: 'blog-posts',
       component: BlogPosts,
-    }, {
+    },
+    {
       path: '*',
       redirect: '/errors',
     },

@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon server.js --port 9090"
+    "dev": "nodemon server.js --port 9090"
   },
   "keywords": [
     "Nodejs",
@@ -23,6 +23,6 @@
     "jsonwebtoken": "^8.3.0",
     "mysql2": "^1.6.1",
     "nodemon": "^1.19.4",
-    "sequelize": "^4.39.0"
+    "sequelize": "^4.44.3"
   }
 }
