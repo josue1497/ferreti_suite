@@ -79,7 +79,7 @@ export default {
        */
     title: {
       type: String,
-      default: 'Top Referrals',
+      default: 'Ventas por Territorio',
     },
     /**
        * The referral datasets.

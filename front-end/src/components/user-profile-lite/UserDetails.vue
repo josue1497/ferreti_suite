@@ -16,7 +16,6 @@
       <span class="text-muted d-block mb-2">{{ userDetails.jobTitle }}</span>
 
       <!-- User Follow -->
-      <d-button pill outline size="sm" class="mb-2"> <i class="material-icons mr-1">person_add</i> Follow</d-button>
 
     </d-card-header>
 
@@ -48,9 +47,9 @@ const defaultUserDetails = {
   name: 'Sierra Brooks',
   avatar: require('@/assets/images/avatars/0.jpg'),
   jobTitle: 'Project Manager',
-  performanceReportTitle: 'Workload',
+  performanceReportTitle: 'Ventas Mensuales',
   performanceReportValue: 74,
-  metaTitle: 'Description',
+  metaTitle: 'Descripción',
   metaValue: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eaque, quidem, commodi soluta qui quae minima obcaecati quod dolorum sint alias, possimus illum assumenda eligendi cumque?',
 };
 

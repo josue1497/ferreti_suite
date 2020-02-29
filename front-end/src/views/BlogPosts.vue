@@ -3,8 +3,8 @@
     <!-- Page Header -->
     <div class="page-header row no-gutters py-4">
       <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
-        <span class="text-uppercase page-subtitle">Components</span>
-        <h3 class="page-title">Blog Posts</h3>
+        <span class="text-uppercase page-subtitle">Inventario</span>
+        <h3 class="page-title">Categorias</h3>
       </div>
     </div>
 
@@ -13,9 +13,9 @@
       <d-col v-for="(post, idx) in PostsListOne" :key="idx" lg="3" md="6" sm="12" class="mb-4">
         <d-card class="card-small card-post card-post--1">
           <div class="card-post__image" :style="{ backgroundImage: 'url(\'' + post.backgroundImage + '\')' }">
-            <d-badge pill :class="['card-post__category', 'bg-' + post.categoryTheme ]">{{ post.category }}</d-badge>
+            <!-- <d-badge pill :class="['card-post__category', 'bg-' + post.categoryTheme ]">{{ post.category }}</d-badge> -->
             <div class="card-post__author d-flex">
-              <a href="#" class="card-post__author-avatar card-post__author-avatar--small" :style="{ backgroundImage: 'url(\'' + post.authorAvatar + '\')' }">Written by {{ post.author }}</a>
+              <!-- <a href="#" class="card-post__author-avatar card-post__author-avatar--small" :style="{ backgroundImage: 'url(\'' + post.authorAvatar + '\')' }">Written by {{ post.author }}</a> -->
             </div>
           </div>
           <d-card-body>
@@ -30,7 +30,7 @@
     </d-row>
 
     <!-- Second Row of Posts -->
-    <d-row>
+    <!-- <d-row>
       <d-col v-for="(post, idx) in PostsListTwo" :key="idx" lg="6" sm="12" class="mb-4">
         <d-card class="card-small card-post card-post--aside card-post--1">
           <div class="card-post__image" :style="{ backgroundImage: 'url(\'' + post.backgroundImage + '\')' }">
@@ -48,10 +48,10 @@
           </d-card-body>
         </d-card>
       </d-col>
-    </d-row>
+    </d-row> -->
 
     <!-- Third Row of Posts -->
-    <d-row>
+    <!-- <d-row>
       <d-col v-for="(post, idx) in PostsListThree" :key="idx" lg="4">
         <d-card class="card-small card-post mb-4">
           <d-card-body>
@@ -74,10 +74,10 @@
           </d-card-footer>
         </d-card>
       </d-col>
-    </d-row>
+    </d-row> -->
 
     <!-- Fourth Row of Posts -->
-    <d-row>
+    <!-- <d-row>
       <d-col v-for="(post, idx) in PostsListFour" :key="idx" lg="3" md="6" sm="12" class="mb-4">
         <d-card class="card-small card-post h-10">
           <div class="card-post__image" :style="{ backgroundImage: 'url(\'' + post.backgroundImage + '\')' }"></div>
@@ -92,48 +92,48 @@
           </d-card-footer>
         </d-card>
       </d-col>
-    </d-row>
+    </d-row> -->
   </d-container>
 </template>
 
 <script>
 // First Row of Posts
 const PostsListOne = [{
-  backgroundImage: require('@/assets/images/content-management/1.jpeg'),
+  backgroundImage: 'https://www.arqhys.com/wp-content/fotos/2014/03/Importancia-de-la-grifer%C3%ADa..jpg',
   category: 'Business',
   categoryTheme: 'dark',
   author: 'Anna Kunis',
   authorAvatar: require('@/assets/images/avatars/1.jpg'),
-  title: 'Conduct at an replied removal an amongst',
+  title: 'Griferías',
   body: 'However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. But in for determine what would see...',
-  date: '28 February 2019',
+  date: 'Entrar',
 }, {
-  backgroundImage: require('@/assets/images/content-management/2.jpeg'),
+  backgroundImage: 'https://http2.mlstatic.com/D_NQ_NP_781753-MLV31556444527_072019-V.jpg',
   category: 'Travel',
   categoryTheme: 'info',
   author: 'James Jamerson',
   authorAvatar: require('@/assets/images/avatars/2.jpg'),
-  title: 'Off tears are day blind smile alone had ready',
-  body: 'Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...',
-  date: '29 February 2019',
+  title: 'Mantos',
+  body: 'Is at purse tried jokes china ready decay an. Small its woody downs power. To denoting admitted speaking learning my...',
+  date: 'Entrar',
 }, {
-  backgroundImage: require('@/assets/images/content-management/3.jpeg'),
+  backgroundImage: 'https://media.istockphoto.com/photos/locksmith-tools-picture-id171573195?k=6&m=171573195&s=612x612&w=0&h=opkY-YKkpsGOfW1Y6snDIHDTDrySyUidV_xICDZklgI=',
   category: 'Technology',
   categoryTheme: 'royal-blue',
   author: 'Jimmy Jackson',
   authorAvatar: require('@/assets/images/avatars/2.jpg'),
-  title: 'Difficult in delivered extensive at direction',
-  body: 'Is at purse tried jokes china ready decay an. Small its shy way had woody downs power. To denoting admitted speaking learning my...',
-  date: '29 February 2019',
+  title: 'Cerrajerías',
+  body: 'Is at purse tried jokes china  its woody downs power. To denoting  woody doenoting admitted speaking learning my...',
+  date: 'Entrar',
 }, {
-  backgroundImage: require('@/assets/images/content-management/4.jpeg'),
+  backgroundImage: 'https://www.euroresidentes.com/hogar/decoracion/wp-content/uploads/sites/6/2017/03/decorar-plantas-interior-ideas-379x297.jpg',
   category: 'Business',
   categoryTheme: 'warning',
   author: 'John James',
   authorAvatar: require('@/assets/images/avatars/3.jpg'),
-  title: 'It so numerous if he may outlived disposal',
+  title: 'Decoración',
   body: 'How but sons mrs lady when. Her especially are unpleasant out alteration continuing unreserved ready road market resolution...',
-  date: '29 February 2019',
+  date: 'Entrar',
 }];
 
   // Second Row of posts
@@ -145,7 +145,7 @@ const PostsListTwo = [{
   authorAvatar: require('@/assets/images/avatars/0.jpg'),
   title: 'Attention he extremity unwilling on otherwise cars backwards yet',
   body: 'Conviction up partiality as delightful is discovered. Yet jennings resolved disposed exertion you off. Left did fond drew fat head poor jet pan flying over...',
-  date: '29 February 2019',
+  date: 'Entrar',
 }, {
   backgroundImage: require('@/assets/images/content-management/6.jpeg'),
   category: 'Business',
@@ -154,7 +154,7 @@ const PostsListTwo = [{
   authorAvatar: require('@/assets/images/avatars/1.jpg'),
   title: 'Totally words widow one downs few age every seven if miss part by fact',
   body: 'Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education to admitted speaking...',
-  date: '29 February 2019',
+  date: 'Entrar',
 }];
 
   // Third Row of Posts
@@ -163,13 +163,13 @@ const PostsListThree = [{
   authorAvatar: require('@/assets/images/avatars/1.jpg'),
   title: 'Had denoting properly jointure which well books beyond',
   body: 'In said to of poor full be post face snug. Introduced imprudence see say unpleasing devonshire acceptance son. Exeter longer wisdom work...',
-  date: '29 February 2019',
+  date: 'Entrar',
 }, {
   author: 'John James',
   authorAvatar: require('@/assets/images/avatars/2.jpg'),
   title: 'Husbands ask repeated resolved but laughter debating',
   body: 'It abode words began enjoy years no do ﻿no. Tried spoil as heart visit blush or. Boy possible blessing sensible set but margaret interest. Off tears...',
-  date: '29 February 2019',
+  date: 'Entrar',
 }, {
   author: 'John James',
   authorAvatar: require('@/assets/images/avatars/3.jpg'),

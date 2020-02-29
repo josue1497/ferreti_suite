@@ -47,7 +47,7 @@ const defaultChartData = {
       'rgba(0,123,255,0.3)',
     ],
   }],
-  labels: ['Desktop', 'Tablet', 'Mobile'],
+  labels: ['Centro', 'Oriente', 'Occidente'],
 };
 
 export default {
@@ -85,7 +85,7 @@ export default {
        */
     title: {
       type: String,
-      default: 'Users by device',
+      default: 'Clientes por Zonas',
     },
   },
   mounted() {

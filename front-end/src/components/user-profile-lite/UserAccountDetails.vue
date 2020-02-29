@@ -15,13 +15,13 @@
 
                 <!-- First Name -->
                 <d-col md="6" class="form-group">
-                  <label for="feFirstName">First Name</label>
+                  <label for="feFirstName">Nombres:</label>
                   <d-form-input type="text" id="feFirstName" placeholder="First Name" value="Sierra" />
                 </d-col>
 
                 <!-- Last Name -->
                 <d-col md="6" class="form-group">
-                  <label for="feLastName">Last Name</label>
+                  <label for="feLastName">Apellidos:</label>
                   <d-form-input type="text" id="feLastName" placeholder="Last Name" value="Brooks" />
                 </d-col>
 
@@ -31,13 +31,13 @@
 
                 <!-- Email -->
                 <d-col md="6" class="form-group">
-                  <label for="feEmail">Email</label>
+                  <label for="feEmail">Correo Electrónico:</label>
                   <d-form-input type="email" id="feEmail" placeholder="Email Address" value="sierra@example.com" />
                 </d-col>
 
                 <!-- Password -->
                 <d-col md="6" class="form-group">
-                  <label for="fePassword">Password</label>
+                  <label for="fePassword">Contraseña:</label>
                   <d-form-input type="password" id="fePassword" placeholder="Last Name" value="EX@MPL#P@$$w0RD" />
                 </d-col>
 
@@ -45,29 +45,29 @@
 
               <!-- Address -->
               <div class="form-group">
-                <label for="feInputAddress">Address</label>
+                <label for="feInputAddress">Direccion:</label>
                 <d-form-input type="text" id="feInputAddress" placeholder="1234 Main St" />
               </div>
 
               <d-form-row>
                 <!-- City -->
                 <d-col md="6" class="form-group">
-                  <label for="feInputCity">City</label>
+                  <label for="feInputCity">Ciudad:</label>
                   <d-form-input type="text" id="feInputCity" />
                 </d-col>
 
                 <!-- State -->
                 <d-col md="4" class="form-group">
-                  <label for="feInputState">State</label>
+                  <label for="feInputState">Estado:</label>
                   <d-select :value="null" id="feInputState">
-                    <option :value="null" selected>Choose...</option>
+                    <option :value="null" selected>Escoger ...</option>
                     <option>...</option>
                   </d-select>
                 </d-col>
 
                 <!-- Zip Code -->
                 <d-col md="2"  class="form-group">
-                  <label for="inputZip">Zip</label>
+                  <label for="inputZip">Código Postal</label>
                   <input type="text" class="form-control" id="inputZip">
                 </d-col>
 
@@ -75,14 +75,9 @@
 
               <d-form-row>
 
-                <!-- Description -->
-                <d-col md="12" class="form-group">
-                  <label for="feDescription">Description</label>
-                  <d-textarea name="feDescription" rows="5"></d-textarea>
-                </d-col>
               </d-form-row>
 
-              <d-button type="submit" class="btn-accent">Update Account</d-button>
+              <d-button type="submit" class="btn-accent">Actualizar Perfil</d-button>
 
             </d-form>
           </d-col>
