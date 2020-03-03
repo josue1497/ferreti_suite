@@ -15,19 +15,19 @@
 
 <script>
 const defaultMenuItems = [{
-  title: 'Home',
+  title: 'Inicio',
   to: '#',
 }, {
-  title: 'Services',
+  title: 'Categorias',
   to: '#',
 }, {
-  title: 'About',
+  title: 'Reportes',
   to: '#',
 }, {
-  title: 'Products',
+  title: 'Perfil',
   to: '#',
 }, {
-  title: 'Blog',
+  title: 'Cerrar Sesión',
   to: '#',
 }];
 

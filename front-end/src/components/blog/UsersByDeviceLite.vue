@@ -17,16 +17,16 @@
         <!-- Time Frame -->
         <d-col>
           <d-select size="sm" value="last-week" style="max-width: 130px;">
-            <option value="last-week">Last Week</option>
-            <option value="today">Today</option>
-            <option value="last-month">Last Month</option>
-            <option value="last-year">Last Year</option>
+            <option value="last-week">Última Semana</option>
+            <option value="today">Hoy</option>
+            <option value="last-month">Último Mes</option>
+            <option value="last-year">Último Año</option>
           </d-select>
         </d-col>
 
         <!-- View Full Report -->
         <d-col class="text-right view-report">
-          <a href="#">View full report &rarr;</a>
+          <a href="#">Ver Todo el Reporte &rarr;</a>
         </d-col>
 
       </d-row>
